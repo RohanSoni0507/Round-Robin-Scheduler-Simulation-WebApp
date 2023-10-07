@@ -29,9 +29,14 @@ RRSim is a versatile Round Robin scheduling simulation and visualization tool de
 
 5. Explore the results, including average waiting time and turnaround time.
 
-## Getting Started
+## Contributing
 
-Clone this repository to your local machine:
+Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
-```bash
-git clone https://github.com/your-username/rrsim.git
+## License
+
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+**Disclaimer**: This project is for educational purposes and is not intended for production use.
