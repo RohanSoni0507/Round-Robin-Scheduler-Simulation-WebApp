@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: transparent;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        margin-top: 1em;
+        font-size: 24px;
+        text-align: center;
+        color: #202225;
+        margin-bottom: 1em;
+      }
+
+      p {
+        text-align: justify;
+        margin: 0;
+        color: #202225;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        text-align: justify;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+          <a href="#"><span>🙂 Welcome, User</span></a>
+        </li>
+      </ul>
+    </div>
+    <ul class="slide-in-menu">
+      <li class="close-button">
+        <a href="#" id="close-menu">
+          <i class="fas fa-times"></i>
+        </a>
+      </li>
+      <li><a href="update.html">Latest Updates</a></li>
+      <li><a href="guide.html">Guide</a></li>
+      <li><a href="projects.html">More Projects</a></li>
+      <li class="social-media-link">
+        <a href="https://www.facebook.com/rohansoni0507?mibextid=nW3QTL"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </li>
+      <li class="social-media-link">
+        <a
+          href="https://www.instagram.com/rohansoni0507/?igshid=NGVhN2U2NjQ0Yg%3D%3D"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </li>
+      <li class="social-media-link">
+        <a
+          href="https://twitter.com/RohanSoni118254?t=IPXe6fEidR0cfmS4T5zZWw&s=09"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </li>
+      <li class="social-media-link">
+        <a href="https://www.linkedin.com/in/rohan-soni-963038224/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </li>
+      <li class="social-media-link">
+        <a href="https://github.com/RohanSoni0507"
+          ><i class="fab fa-github"></i
+        ></a>
+      </li>
+    </ul>
+    <div class="container">
+      <h1>Fair Play Tournament Manager - User Guide</h1>
+      <h2>Getting Started</h2>
+      <p>
+        Welcome to Fair Play Tournament Manager! This guide will help you get
+        started with organizing sports tournaments using our web application.
+      </p>
+
+      <h3>Step 1: Create a Tournament</h3>
+      <p>
+        Begin by creating a new tournament. You can specify the number of
+        participants and customize the time quantum for scheduling rounds. Once
+        you've set up the basic details, click the "Run Manager" button.
+      </p>
+
+      <h3>Step 2: Enter Participant Data</h3>
+      <p>
+        For each participant, enter their arrival time and burst time. This data
+        is essential for our round-robin scheduling algorithm to work. You can
+        add as many participants as needed.
+      </p>
+
+      <h3>Step 3: Run the Scheduler</h3>
+      <p>
+        After entering all participant data, click the "Run Manager" button. Our
+        system will process the information and calculate the scheduling for
+        fair and balanced tournament rounds.
+      </p>
+
+      <h2>FAQs</h2>
+      <h3>Q: How does round-robin scheduling work?</h3>
+      <p>
+        A: Round-robin scheduling ensures that each participant competes against
+        all others in a fair and balanced manner. It divides the tournament into
+        rounds, allowing each participant to face every other participant.
+      </p>
+
+      <h3>Q: Can I customize the time quantum for rounds?</h3>
+      <p>
+        A: Yes, you can specify the time quantum when creating a tournament. The
+        time quantum determines the maximum time each participant can play in a
+        round before switching to the next.
+      </p>
+
+      <h3>Q: How are waiting and turnaround times calculated?</h3>
+      <p>
+        A: Waiting time is the time a participant spends waiting for their turn
+        in a round. Turnaround time is the total time a participant takes from
+        arrival to completion of all their matches.
+      </p>
+
+      <p>
+        If you have more questions or need assistance, don't hesitate to
+        <a href="contact.html">contact us</a>.
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
